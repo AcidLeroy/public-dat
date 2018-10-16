@@ -1,0 +1,21 @@
+{
+  "name": "public-dat",
+  "version": "1.0.0",
+  "description": "Create a page from a public dat URL ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "watchify index.js -o bundle.js" 
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "choo": "^6.13.0",
+    "choo-devtools": "^2.5.1",
+    "dat-js": "^6.2.0"
+  },
+  "devDependencies": {
+    "watchify": "^3.11.0"
+  }
+}
